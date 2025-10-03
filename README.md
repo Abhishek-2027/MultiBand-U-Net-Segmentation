@@ -7,16 +7,8 @@ The model is trained to generate segmentation masks from multi-channel input ima
 
 ---
 
-data/            . # Dataset (images and masks)
-models/          . # Saved models (.pth or .h5)
-src/             . # Source code (U-Net, training, evaluation)
-├── unet.py.       .# U-Net architecture
-├── train.py .     .# Training script
-├── evaluate.py  . # Evaluation script
-└── utils.py  .    # Helper functions
-outputs/         . # Generated masks and logs
-requirements.txt . # Python dependencies
-README.md        . # Project documentation
+<img width="577" height="287" alt="image" src="https://github.com/user-attachments/assets/9cf5adc6-d785-4baa-bc0d-83d3c23a8d11" />
+
 
 ---
 
