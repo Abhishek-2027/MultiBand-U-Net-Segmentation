@@ -7,17 +7,17 @@ The model is trained to generate segmentation masks from multi-channel input ima
 
 ---
 
-## 📂 Project Structure
-├── data/ # Dataset (images and masks)
-├── models/ # Saved models (.pth or .h5)
-├── src/ # Source code (U-Net, training, evaluation)
-│ ├── unet.py # U-Net architecture
-│ ├── train.py # Training script
-│ ├── evaluate.py # Evaluation script
-│ └── utils.py # Helper functions
-├── outputs/ # Generated masks and logs
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation 
+data/             # Dataset (images and masks)
+models/           # Saved models (.pth or .h5)
+src/              # Source code (U-Net, training, evaluation)
+├── unet.py       # U-Net architecture
+├── train.py      # Training script
+├── evaluate.py   # Evaluation script
+└── utils.py      # Helper functions
+outputs/          # Generated masks and logs
+requirements.txt  # Python dependencies
+README.md         # Project documentation
+
 ---
 
 ## 🚀 Features
@@ -39,9 +39,11 @@ cd unet-segmentation
 pip install -r requirements.txt
 
 📈 Results
-Accuracy: 66%
+Accuracy: 68%
 IoU: 0.40
 Dice Score: 0.55
+<img width="728" height="430" alt="image" src="https://github.com/user-attachments/assets/54de422e-2125-49b2-bf0d-70bdc1e6ab3a" />
+
 
 📜 License
 This project is licensed under the MIT License.
